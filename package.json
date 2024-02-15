@@ -1,15 +1,20 @@
 {
 	"name": "tallerpackage",
+	"type": "module",
 	"version": "1.0.0",
 	"description": "Estoy aprendiendo js",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"pepito": "node index.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "tallerpackage"
 	},
 	"author": "Laura",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.4"
+	}
 }
